@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-image: url(./images/bg-intro-desktop.png);
   background-color: #ff7a7a;
   color: #fff;
   font-size: 16px;
@@ -19,6 +20,15 @@ body {
 }
 
 .btn {
+  border: none;
   background-color: #38cc8c;
   border-radius: 5px;
+}
+
+div .termos{
+  color: #b8b5d4;
+}
+
+div p a{
+  color: #ff7a7a;
 }
