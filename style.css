@@ -8,44 +8,52 @@ body {
   font-size: 16px;
 }
 
-.esquerda, .direita{
-  position: relative;
-  width: 50%;
-  float: left;
+main {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: bolder;
 }
 
 .chamada {
-  width: 400px;
+  width: 500px;
   justify-items: center;
 }
 
+.chamada p {
+  text-align: left;
+}
 
 .preço {
   justify-items: center;
   background-color: #6055a5;
   text-align: center;
   border-radius: 5px;
-  width: 300px;
+  width: 500px;
   padding: 5px 20px;
   margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 0px;
 }
 
-.form{
+.form {
   color: #ff7a7a;
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
   padding: 20px;
   margin: 20px;
-  width: 300px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 0px;
 }
 
-.input-padrao{
+.input-padrao {
   align-items: center;
   margin-bottom: 20px;
-  width: 300px;
+  width: 500px;
   height: 40px;
   font-weight: 700;
 }
@@ -54,21 +62,22 @@ body {
   font-weight: 800;
   border: none;
   color: #fff;
-  background-color: #38cc8c;
+  background-color: rgb(56, 204, 140);
   border-radius: 5px;
   height: 40px;
-  width: 300px;
+  width: 500px;
+  box-shadow: rgba(30, 112, 76, 0.62) 0px 3px 0px;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
 
-div .termos{
+div .termos {
   color: #b8b5d4;
 }
 
-div p a{
+div p a {
   color: #ff7a7a;
   font-weight: 700;
 }
