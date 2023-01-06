@@ -28,12 +28,12 @@ h1 {
   text-align: left;
 }
 
-.preço {
+.preco {
   justify-items: center;
   background-color: #6055a5;
   text-align: center;
-  border-radius: 5px;
-  width: 500px;
+  border-radius: 10px;
+  width: 400px;
   padding: 5px 20px;
   margin: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 0px;
@@ -42,20 +42,22 @@ h1 {
 .form {
   color: #ff7a7a;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
   padding: 20px;
   margin: 20px;
-  width: 500px;
+  width: 400px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 0px;
 }
 
 .input-padrao {
   align-items: center;
   margin-bottom: 20px;
-  width: 500px;
+  width: 400px;
   height: 40px;
   font-weight: 700;
+  border-color: #b8b5d4;
+  border-radius: 10px;
 }
 
 .btn {
@@ -63,9 +65,9 @@ h1 {
   border: none;
   color: #fff;
   background-color: rgb(56, 204, 140);
-  border-radius: 5px;
+  border-radius: 10px;
   height: 40px;
-  width: 500px;
+  width: 400px;
   box-shadow: rgba(30, 112, 76, 0.62) 0px 3px 0px;
 }
 
