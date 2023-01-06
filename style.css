@@ -8,21 +8,60 @@ body {
   font-size: 16px;
 }
 
-.preço {
-  background-color: #6055a5;
-  border-radius: 5px;
+.esquerda, .direita{
+  position: relative;
+  width: 50%;
+  float: left;
+  align-items: center;
+  text-align: center;
 }
 
-.form {
+.chamada {
+  width: 400px;
+  justify-items: center;
+}
+
+
+.preço {
+  justify-items: center;
+  background-color: #6055a5;
+  text-align: center;
+  border-radius: 5px;
+  width: 300px;
+  padding: 5px 20px;
+  margin: 20px;
+}
+
+.form{
   color: #ff7a7a;
   background-color: #fff;
   border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+}
+
+.input-padrao{
+  align-items: center;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  font-weight: 700;
 }
 
 .btn {
+  font-weight: 800;
   border: none;
+  color: #fff;
   background-color: #38cc8c;
   border-radius: 5px;
+  height: 40px;
+  width: 300px;
+}
+
+.btn:hover{
+  cursor: pointer;
 }
 
 div .termos{
@@ -31,4 +70,5 @@ div .termos{
 
 div p a{
   color: #ff7a7a;
+  font-weight: 700;
 }
